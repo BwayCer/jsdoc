@@ -1,3 +1,21 @@
+## 關於分叉
+
+
+在更新上 [GitHub jsdoc3/jsdoc@v3.5.2](https://github.com/jsdoc3/jsdoc/tree/3.5.2) 後，
+關於描述 ["對於對象屬性"](http://usejsdoc.org/tags-memberof.html) 不再被編譯收入，
+而退版到 [GitHub jsdoc3/jsdoc@v3.5.1](https://github.com/jsdoc3/jsdoc/tree/3.5.1)
+則會遇到 `Error: EISDIR: illegal operation on a directory, copyfile '/path/to/file' -> 'out/path/to/folder'`
+的錯誤訊息。
+
+對此本分叉將進行以下更改：
+
+  * [ ] 修復 v3.5.1 版本的錯誤訊息，讓需求得到解決。
+  * [ ] 使 v3.5.2 以上版本可以支援 "對於對象屬性" 的編譯。
+
+---
+
+
+
 JSDoc 3
 =======
 [![Build Status](https://travis-ci.org/jsdoc3/jsdoc.svg?branch=master)](http://travis-ci.org/jsdoc3/jsdoc)
